@@ -1,0 +1,632 @@
+[
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/FrameworkArduino/CDC.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/CDC.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/CDC.cpp",
+        "output": ".pio/build/mega2560/FrameworkArduino/CDC.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/FrameworkArduino/HardwareSerial.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/HardwareSerial.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/HardwareSerial.cpp",
+        "output": ".pio/build/mega2560/FrameworkArduino/HardwareSerial.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/FrameworkArduino/HardwareSerial0.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/HardwareSerial0.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/HardwareSerial0.cpp",
+        "output": ".pio/build/mega2560/FrameworkArduino/HardwareSerial0.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/FrameworkArduino/HardwareSerial1.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/HardwareSerial1.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/HardwareSerial1.cpp",
+        "output": ".pio/build/mega2560/FrameworkArduino/HardwareSerial1.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/FrameworkArduino/HardwareSerial2.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/HardwareSerial2.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/HardwareSerial2.cpp",
+        "output": ".pio/build/mega2560/FrameworkArduino/HardwareSerial2.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/FrameworkArduino/HardwareSerial3.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/HardwareSerial3.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/HardwareSerial3.cpp",
+        "output": ".pio/build/mega2560/FrameworkArduino/HardwareSerial3.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/FrameworkArduino/IPAddress.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/IPAddress.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/IPAddress.cpp",
+        "output": ".pio/build/mega2560/FrameworkArduino/IPAddress.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/FrameworkArduino/PluggableUSB.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/PluggableUSB.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/PluggableUSB.cpp",
+        "output": ".pio/build/mega2560/FrameworkArduino/PluggableUSB.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/FrameworkArduino/Print.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/Print.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/Print.cpp",
+        "output": ".pio/build/mega2560/FrameworkArduino/Print.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/FrameworkArduino/Stream.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/Stream.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/Stream.cpp",
+        "output": ".pio/build/mega2560/FrameworkArduino/Stream.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/FrameworkArduino/Tone.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/Tone.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/Tone.cpp",
+        "output": ".pio/build/mega2560/FrameworkArduino/Tone.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/FrameworkArduino/USBCore.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/USBCore.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/USBCore.cpp",
+        "output": ".pio/build/mega2560/FrameworkArduino/USBCore.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/mega2560/FrameworkArduino/WInterrupts.c.o -c -Wno-implicit-function-declaration -std=gnu11 -fno-fat-lto-objects -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/WInterrupts.c",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/WInterrupts.c",
+        "output": ".pio/build/mega2560/FrameworkArduino/WInterrupts.c.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/FrameworkArduino/WMath.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/WMath.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/WMath.cpp",
+        "output": ".pio/build/mega2560/FrameworkArduino/WMath.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/FrameworkArduino/WString.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/WString.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/WString.cpp",
+        "output": ".pio/build/mega2560/FrameworkArduino/WString.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/FrameworkArduino/abi.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/abi.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/abi.cpp",
+        "output": ".pio/build/mega2560/FrameworkArduino/abi.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/mega2560/FrameworkArduino/hooks.c.o -c -Wno-implicit-function-declaration -std=gnu11 -fno-fat-lto-objects -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/hooks.c",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/hooks.c",
+        "output": ".pio/build/mega2560/FrameworkArduino/hooks.c.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/FrameworkArduino/main.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/main.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/main.cpp",
+        "output": ".pio/build/mega2560/FrameworkArduino/main.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/FrameworkArduino/new.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/new.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/new.cpp",
+        "output": ".pio/build/mega2560/FrameworkArduino/new.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/mega2560/FrameworkArduino/wiring.c.o -c -Wno-implicit-function-declaration -std=gnu11 -fno-fat-lto-objects -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/wiring.c",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/wiring.c",
+        "output": ".pio/build/mega2560/FrameworkArduino/wiring.c.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/mega2560/FrameworkArduino/wiring_analog.c.o -c -Wno-implicit-function-declaration -std=gnu11 -fno-fat-lto-objects -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/wiring_analog.c",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/wiring_analog.c",
+        "output": ".pio/build/mega2560/FrameworkArduino/wiring_analog.c.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/mega2560/FrameworkArduino/wiring_digital.c.o -c -Wno-implicit-function-declaration -std=gnu11 -fno-fat-lto-objects -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/wiring_digital.c",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/wiring_digital.c",
+        "output": ".pio/build/mega2560/FrameworkArduino/wiring_digital.c.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -mmcu=atmega2560 -x assembler-with-cpp -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega -c -o .pio/build/mega2560/FrameworkArduino/wiring_pulse.S.o /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/wiring_pulse.S",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/wiring_pulse.S",
+        "output": ".pio/build/mega2560/FrameworkArduino/wiring_pulse.S.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/mega2560/FrameworkArduino/wiring_pulse.c.o -c -Wno-implicit-function-declaration -std=gnu11 -fno-fat-lto-objects -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/wiring_pulse.c",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/wiring_pulse.c",
+        "output": ".pio/build/mega2560/FrameworkArduino/wiring_pulse.c.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/mega2560/FrameworkArduino/wiring_shift.c.o -c -Wno-implicit-function-declaration -std=gnu11 -fno-fat-lto-objects -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/wiring_shift.c",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino/wiring_shift.c",
+        "output": ".pio/build/mega2560/FrameworkArduino/wiring_shift.c.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/libafc/Wire/Wire.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src/Wire.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src/Wire.cpp",
+        "output": ".pio/build/mega2560/libafc/Wire/Wire.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/mega2560/libafc/Wire/utility/twi.c.o -c -Wno-implicit-function-declaration -std=gnu11 -fno-fat-lto-objects -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega /home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src/utility/twi.c",
+        "directory": "/home/sari/src/Marlin",
+        "file": "/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src/utility/twi.c",
+        "output": ".pio/build/mega2560/libafc/Wire/utility/twi.c.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/HAL/AVR/HAL.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/HAL/AVR/HAL.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/HAL/AVR/HAL.cpp",
+        "output": ".pio/build/mega2560/src/src/HAL/AVR/HAL.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/HAL/AVR/HAL_SPI.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/HAL/AVR/HAL_SPI.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/HAL/AVR/HAL_SPI.cpp",
+        "output": ".pio/build/mega2560/src/src/HAL/AVR/HAL_SPI.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/HAL/AVR/MarlinSerial.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/HAL/AVR/MarlinSerial.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/HAL/AVR/MarlinSerial.cpp",
+        "output": ".pio/build/mega2560/src/src/HAL/AVR/MarlinSerial.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/HAL/AVR/Servo.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/HAL/AVR/Servo.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/HAL/AVR/Servo.cpp",
+        "output": ".pio/build/mega2560/src/src/HAL/AVR/Servo.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/HAL/AVR/eeprom.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/HAL/AVR/eeprom.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/HAL/AVR/eeprom.cpp",
+        "output": ".pio/build/mega2560/src/src/HAL/AVR/eeprom.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/HAL/AVR/fast_pwm.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/HAL/AVR/fast_pwm.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/HAL/AVR/fast_pwm.cpp",
+        "output": ".pio/build/mega2560/src/src/HAL/AVR/fast_pwm.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/HAL/AVR/fastio.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/HAL/AVR/fastio.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/HAL/AVR/fastio.cpp",
+        "output": ".pio/build/mega2560/src/src/HAL/AVR/fastio.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/HAL/AVR/registers.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/HAL/AVR/registers.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/HAL/AVR/registers.cpp",
+        "output": ".pio/build/mega2560/src/src/HAL/AVR/registers.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/HAL/AVR/u8g/u8g_com_HAL_AVR_sw_spi.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/HAL/AVR/u8g/u8g_com_HAL_AVR_sw_spi.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/HAL/AVR/u8g/u8g_com_HAL_AVR_sw_spi.cpp",
+        "output": ".pio/build/mega2560/src/src/HAL/AVR/u8g/u8g_com_HAL_AVR_sw_spi.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/HAL/shared/Delay.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/HAL/shared/Delay.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/HAL/shared/Delay.cpp",
+        "output": ".pio/build/mega2560/src/src/HAL/shared/Delay.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/HAL/shared/HAL.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/HAL/shared/HAL.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/HAL/shared/HAL.cpp",
+        "output": ".pio/build/mega2560/src/src/HAL/shared/HAL.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/HAL/shared/MinSerial.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/HAL/shared/MinSerial.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/HAL/shared/MinSerial.cpp",
+        "output": ".pio/build/mega2560/src/src/HAL/shared/MinSerial.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/HAL/shared/eeprom_api.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/HAL/shared/eeprom_api.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/HAL/shared/eeprom_api.cpp",
+        "output": ".pio/build/mega2560/src/src/HAL/shared/eeprom_api.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/HAL/shared/esp_wifi.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/HAL/shared/esp_wifi.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/HAL/shared/esp_wifi.cpp",
+        "output": ".pio/build/mega2560/src/src/HAL/shared/esp_wifi.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/HAL/shared/servo.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/HAL/shared/servo.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/HAL/shared/servo.cpp",
+        "output": ".pio/build/mega2560/src/src/HAL/shared/servo.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/MarlinCore.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/MarlinCore.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/MarlinCore.cpp",
+        "output": ".pio/build/mega2560/src/src/MarlinCore.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/core/serial.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/core/serial.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/core/serial.cpp",
+        "output": ".pio/build/mega2560/src/src/core/serial.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/core/utility.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/core/utility.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/core/utility.cpp",
+        "output": ".pio/build/mega2560/src/src/core/utility.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/feature/host_actions.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/feature/host_actions.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/feature/host_actions.cpp",
+        "output": ".pio/build/mega2560/src/src/feature/host_actions.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/calibrate/G28.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/calibrate/G28.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/calibrate/G28.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/calibrate/G28.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/config/M200-M205.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/config/M200-M205.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/config/M200-M205.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/config/M200-M205.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/config/M220.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/config/M220.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/config/M220.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/config/M220.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/config/M221.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/config/M221.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/config/M221.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/config/M221.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/config/M301.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/config/M301.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/config/M301.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/config/M301.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/config/M302.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/config/M302.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/config/M302.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/config/M302.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/config/M92.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/config/M92.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/config/M92.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/config/M92.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/control/M108_M112_M410.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/control/M108_M112_M410.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/control/M108_M112_M410.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/control/M108_M112_M410.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/control/M111.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/control/M111.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/control/M111.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/control/M111.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/control/M120_M121.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/control/M120_M121.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/control/M120_M121.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/control/M120_M121.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/control/M17_M18_M84.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/control/M17_M18_M84.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/control/M17_M18_M84.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/control/M17_M18_M84.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/control/M211.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/control/M211.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/control/M211.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/control/M211.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/control/M80_M81.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/control/M80_M81.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/control/M80_M81.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/control/M80_M81.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/control/M85.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/control/M85.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/control/M85.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/control/M85.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/control/M999.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/control/M999.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/control/M999.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/control/M999.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/eeprom/M500-M504.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/eeprom/M500-M504.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/eeprom/M500-M504.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/eeprom/M500-M504.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/gcode.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/gcode.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/gcode.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/gcode.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/gcode_d.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/gcode_d.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/gcode_d.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/gcode_d.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/geometry/G92.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/geometry/G92.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/geometry/G92.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/geometry/G92.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/geometry/M206_M428.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/geometry/M206_M428.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/geometry/M206_M428.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/geometry/M206_M428.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/host/M110.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/host/M110.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/host/M110.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/host/M110.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/host/M113.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/host/M113.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/host/M113.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/host/M113.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/host/M114.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/host/M114.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/host/M114.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/host/M114.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/host/M115.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/host/M115.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/host/M115.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/host/M115.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/host/M118.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/host/M118.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/host/M118.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/host/M118.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/host/M119.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/host/M119.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/host/M119.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/host/M119.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/host/M876.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/host/M876.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/host/M876.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/host/M876.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/motion/G0_G1.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/motion/G0_G1.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/motion/G0_G1.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/motion/G0_G1.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/motion/G2_G3.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/motion/G2_G3.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/motion/G2_G3.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/motion/G2_G3.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/motion/G4.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/motion/G4.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/motion/G4.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/motion/G4.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/motion/M400.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/motion/M400.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/motion/M400.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/motion/M400.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/parser.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/parser.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/parser.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/parser.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/queue.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/queue.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/queue.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/queue.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/stats/M31.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/stats/M31.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/stats/M31.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/stats/M31.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/stats/M75-M78.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/stats/M75-M78.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/stats/M75-M78.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/stats/M75-M78.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/temp/M104_M109.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/temp/M104_M109.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/temp/M104_M109.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/temp/M104_M109.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/temp/M105.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/temp/M105.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/temp/M105.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/temp/M105.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/temp/M106_M107.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/temp/M106_M107.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/temp/M106_M107.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/temp/M106_M107.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/temp/M140_M190.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/temp/M140_M190.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/temp/M140_M190.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/temp/M140_M190.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/temp/M155.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/temp/M155.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/temp/M155.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/temp/M155.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/temp/M303.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/temp/M303.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/temp/M303.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/temp/M303.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/gcode/units/M82_M83.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/gcode/units/M82_M83.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/gcode/units/M82_M83.cpp",
+        "output": ".pio/build/mega2560/src/src/gcode/units/M82_M83.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/inc/Warnings.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/inc/Warnings.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/inc/Warnings.cpp",
+        "output": ".pio/build/mega2560/src/src/inc/Warnings.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/lcd/marlinui.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/lcd/marlinui.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/lcd/marlinui.cpp",
+        "output": ".pio/build/mega2560/src/src/lcd/marlinui.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/lcd/utf8.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/lcd/utf8.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/lcd/utf8.cpp",
+        "output": ".pio/build/mega2560/src/src/lcd/utf8.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/libs/buzzer.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/libs/buzzer.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/libs/buzzer.cpp",
+        "output": ".pio/build/mega2560/src/src/libs/buzzer.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/libs/crc16.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/libs/crc16.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/libs/crc16.cpp",
+        "output": ".pio/build/mega2560/src/src/libs/crc16.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/libs/numtostr.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/libs/numtostr.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/libs/numtostr.cpp",
+        "output": ".pio/build/mega2560/src/src/libs/numtostr.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/libs/stopwatch.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/libs/stopwatch.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/libs/stopwatch.cpp",
+        "output": ".pio/build/mega2560/src/src/libs/stopwatch.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/libs/vector_3.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/libs/vector_3.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/libs/vector_3.cpp",
+        "output": ".pio/build/mega2560/src/src/libs/vector_3.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/module/endstops.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/module/endstops.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/module/endstops.cpp",
+        "output": ".pio/build/mega2560/src/src/module/endstops.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/module/fans.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/module/fans.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/module/fans.cpp",
+        "output": ".pio/build/mega2560/src/src/module/fans.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/module/motion.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/module/motion.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/module/motion.cpp",
+        "output": ".pio/build/mega2560/src/src/module/motion.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/module/planner.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/module/planner.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/module/planner.cpp",
+        "output": ".pio/build/mega2560/src/src/module/planner.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/module/settings.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/module/settings.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/module/settings.cpp",
+        "output": ".pio/build/mega2560/src/src/module/settings.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/module/stepper.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/module/stepper.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/module/stepper.cpp",
+        "output": ".pio/build/mega2560/src/src/module/stepper.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/module/stepper/indirection.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/module/stepper/indirection.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/module/stepper/indirection.cpp",
+        "output": ".pio/build/mega2560/src/src/module/stepper/indirection.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/module/temperature.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/module/temperature.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/module/temperature.cpp",
+        "output": ".pio/build/mega2560/src/src/module/temperature.cpp.o"
+    },
+    {
+        "command": "/home/sari/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/mega2560/src/src/module/tool_change.cpp.o -c -fno-sized-deallocation -Wno-register -std=gnu++1z -fno-exceptions -fno-threadsafe-statics -fpermissive -g3 -fmax-errors=1 -fsingle-precision-constant -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60200 -DARDUINO_AVR_MEGA2560 -D__MARLIN_FIRMWARE__ -DNDEBUG -DBOARD_F_CPU=16000000L -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IMarlin -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/libraries/Wire/src -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/cores/arduino -I/home/sari/.platformio/packages/framework-arduino-avr@5.1.0/variants/mega Marlin/src/module/tool_change.cpp",
+        "directory": "/home/sari/src/Marlin",
+        "file": "Marlin/src/module/tool_change.cpp",
+        "output": ".pio/build/mega2560/src/src/module/tool_change.cpp.o"
+    }
+]
