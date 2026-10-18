@@ -694,6 +694,8 @@
   #include "stm32f1/pins_ORCA_3D_SPRINGER.h"        // STM32F1                              env:STM32F103VC_orca3d
 #elif MB(ATOMSTACK_FB5_V2)
   #include "stm32f1/pins_ATOMSTACK_FB5_V2.h"        // STM32F1                              env:STM32F103RC_atomstack
+#elif MB(ZORTRAX_M200)
+  #include "stm32f1/pins_ZORTRAX_M200.h"            // STM32F1                              env:STM32F103VC_zortrax_m200
 
 //
 // ARM Cortex-M4F
