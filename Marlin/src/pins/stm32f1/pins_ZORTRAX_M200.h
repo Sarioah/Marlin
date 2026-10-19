@@ -63,8 +63,8 @@
 #define X_MIN_PIN           PE12   // X_ENDSTOP_Pin
 #define Y_MIN_PIN           PC6   // Y_ENDSTOP_Pin
 // #define Z_MIN_PIN           PE15  // Z_SENSOR_Pin
-// #define Z_MAX_PIN           PA8   // Z_DOWN_ENDSTOP_Pin
-#define Z_MIN_PROBE_PIN         PC7   // PLATFORM_ENDSTOP_Pin
+#define Z_MAX_PIN           PC7   // Z_DOWN_ENDSTOP_Pin
+// #define Z_MIN_PROBE_PIN         PC7   // PLATFORM_ENDSTOP_Pin
 // #define FILAMENT_RUNOUT_PIN PD15  // FILAMENT_ENDSTOP_Pin
 
 //
