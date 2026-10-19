@@ -28,6 +28,7 @@
 #include "env_validate.h"
 
 #define BOARD_INFO_NAME "Zortrax M200/M300"
+#define FLASH_EEPROM_EMULATION // save settings in last 2kB of flash
 
 //
 // Stepper Motors
