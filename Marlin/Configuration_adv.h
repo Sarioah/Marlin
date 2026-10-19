@@ -1957,9 +1957,9 @@
   #if ENABLED(SDCARD_SORT_ALPHA)
     #define SDSORT_QUICK           true   // Use Quick Sort as a sorting algorithm. Otherwise use Bubble Sort.
     #define SDSORT_REVERSE         false  // Default to sorting file names in reverse order.
-    #define SDSORT_CACHE_ONLY      false  // Don't sort. Cache names in RAM for a fast menu, keeping directory order
+    #define SDSORT_CACHE_ONLY      true   // Don't sort. Cache names in RAM for a fast menu, keeping directory order
                                           // (newest first with SDCARD_RATHERRECENTFIRST). Requires SDSORT_CACHE_NAMES.
-    #define SDSORT_LIMIT           40     // Maximum number of sorted items (10-256). Costs 27 bytes each.
+    #define SDSORT_LIMIT           100    // Maximum number of sorted items (10-256). Costs 27 bytes each.
     #define SDSORT_FOLDERS        -1      // -1=above  0=none  1=below
     #define SDSORT_GCODE           false  // Enable G-code M34 to set sorting behaviors: M34 S<-1|0|1> F<-1|0|1>
     #define SDSORT_USES_STACK      false  // Prefer the stack for pre-sorting to give back some SRAM. (Negated by next 2 options.)
