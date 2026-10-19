@@ -435,6 +435,8 @@ static_assert(COUNT(arm) == LOGICAL_AXES, "AXIS_RELATIVE_MODES must contain " _L
     #error "SDSORT_CACHE_NAMES requires SDSORT_USES_RAM (which reads the directory into RAM)."
   #elif ENABLED(SDSORT_DYNAMIC_RAM) && DISABLED(SDSORT_CACHE_NAMES)
     #error "SDSORT_DYNAMIC_RAM requires SDSORT_CACHE_NAMES."
+  #elif ENABLED(SDSORT_CACHE_ONLY) && DISABLED(SDSORT_CACHE_NAMES)
+    #error "SDSORT_CACHE_ONLY requires SDSORT_CACHE_NAMES (it only caches names, without sorting)."
   #endif
 
   #if ENABLED(SDSORT_CACHE_NAMES) && DISABLED(SDSORT_DYNAMIC_RAM) && SDSORT_CACHE_VFATS < 2

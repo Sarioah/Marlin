@@ -103,6 +103,9 @@ int16_t CardReader::nrItems = -1;
 
   int16_t CardReader::sort_count;
   uint8_t *CardReader::sort_order;
+  #if ENABLED(SDSORT_CACHE_ONLY)
+    int16_t CardReader::sort_base;
+  #endif
 
   #if ENABLED(SDSORT_USES_RAM)
 
@@ -1251,10 +1254,12 @@ void CardReader::closefile(const bool store_location/*=false*/) {
 //
 void CardReader::selectFileByIndex(const int16_t nr) {
   #if ENABLED(SDSORT_CACHE_NAMES)
-    if (nr < sort_count) {
-      strcpy(filename, sortshort[nr]);
-      strcpy(longFilename, sortnames[nr]);
-      TERN_(HAS_FOLDER_SORTING, flag.filenameIsDir = IS_DIR(nr));
+    // The cache holds a window of the directory starting at sort_base
+    const int16_t slot = nr - TERN0(SDSORT_CACHE_ONLY, sort_base);
+    if (slot >= 0 && slot < sort_count) {
+      strcpy(filename, sortshort[slot]);
+      strcpy(longFilename, sortnames[slot]);
+      TERN_(HAS_FOLDER_SORTING, flag.filenameIsDir = IS_DIR(slot));
       char *ext = strrchr(filename, '.');
       setBinFlag(extIsBIN(ext ? ext + 1 : nullptr));
       return;
@@ -1437,7 +1442,12 @@ void CardReader::cdroot() {
    * Get the name of a file in the working directory by sort-index
    */
   void CardReader::selectFileByIndexSorted(const int16_t nr) {
-    selectFileByIndex(SortFlag(TERN1(SDSORT_GCODE, sort_alpha != AS_OFF)) && (nr < sort_count) ? sort_order[nr] : nr);
+    #if ENABLED(SDSORT_CACHE_ONLY)
+      // Directory order, same as with sorting disabled. Cached entries come from RAM.
+      selectFileByIndex(TERN(SDCARD_RATHERRECENTFIRST, get_num_items() - 1 - nr, nr));
+    #else
+      selectFileByIndex(SortFlag(TERN1(SDSORT_GCODE, sort_alpha != AS_OFF)) && (nr < sort_count) ? sort_order[nr] : nr);
+    #endif
   }
 
   #if ENABLED(SDSORT_USES_RAM)
@@ -1493,6 +1503,12 @@ void CardReader::cdroot() {
       // If you use folders to organize, 20 may be enough
       NOMORE(fileCnt, int16_t(SDSORT_LIMIT));
 
+      #if ENABLED(SDSORT_CACHE_ONLY)
+        // Cache the entries that appear first in the menu.
+        // With SDCARD_RATHERRECENTFIRST these are the newest (last) in the directory.
+        sort_base = TERN0(SDCARD_RATHERRECENTFIRST, get_num_items() - fileCnt);
+      #endif
+
       // Sort order is always needed. May be static or dynamic.
       TERN_(SDSORT_DYNAMIC_RAM, sort_order = new uint8_t[fileCnt]);
 
@@ -1528,7 +1544,7 @@ void CardReader::cdroot() {
           sort_order[i] = uint8_t(i);
           // If using RAM then read all filenames now.
           #if ENABLED(SDSORT_USES_RAM)
-            selectFileByIndex(i);
+            selectFileByIndex(i + TERN0(SDSORT_CACHE_ONLY, sort_base));
             SET_SORTNAME(i);
             SET_SORTSHORT(i);
             //char out[30];
@@ -1542,7 +1558,9 @@ void CardReader::cdroot() {
           #endif
         }
 
-        #if ENABLED(SDSORT_QUICK)
+        #if ENABLED(SDSORT_CACHE_ONLY)
+          // Names are cached in directory order. No sorting.
+        #elif ENABLED(SDSORT_QUICK)
         {
           auto sort_cmp_files = [&](const int16_t o1, const int16_t o2) -> bool {
             #if DISABLED(SDSORT_USES_RAM)
@@ -1728,7 +1746,7 @@ void CardReader::cdroot() {
             sortnames = new char[1][SORTED_LONGNAME_STORAGE];
             sortshort = new char[1][SORTED_SHORTNAME_STORAGE];
           #endif
-          selectFileByIndex(0);
+          selectFileByIndex(TERN0(SDSORT_CACHE_ONLY, sort_base));
           SET_SORTNAME(0);
           SET_SORTSHORT(0);
           #if ALL(HAS_FOLDER_SORTING, SDSORT_DYNAMIC_RAM)
