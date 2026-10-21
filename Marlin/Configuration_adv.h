@@ -1865,6 +1865,9 @@
   // Since the FAT gets out of order with usage, SDCARD_SORT_ALPHA is recommended.
   #define SDCARD_RATHERRECENTFIRST
 
+  // Hide files and folders whose names start with '.' (e.g., .Trash-1000, ._macOS files)
+  #define SDCARD_HIDE_DOTFILES
+
   #define SD_MENU_CONFIRM_START             // Confirm the selected SD file before printing
 
   //#define NO_SD_AUTOSTART                 // Remove auto#.g file support completely to save some Flash, SRAM
@@ -1957,8 +1960,8 @@
   #if ENABLED(SDCARD_SORT_ALPHA)
     #define SDSORT_QUICK           true   // Use Quick Sort as a sorting algorithm. Otherwise use Bubble Sort.
     #define SDSORT_REVERSE         false  // Default to sorting file names in reverse order.
-    #define SDSORT_CACHE_ONLY      true   // Don't sort. Cache names in RAM for a fast menu, keeping directory order
-                                          // (newest first with SDCARD_RATHERRECENTFIRST). Requires SDSORT_CACHE_NAMES.
+    #define SDSORT_BY_DATE         true   // Sort by modified date/time, newest first (oldest first with SDSORT_REVERSE).
+                                          // Same names are sorted alphabetically. Requires SDSORT_USES_RAM.
     #define SDSORT_LIMIT           100    // Maximum number of sorted items (10-256). Costs 27 bytes each.
     #define SDSORT_FOLDERS        -1      // -1=above  0=none  1=below
     #define SDSORT_GCODE           false  // Enable G-code M34 to set sorting behaviors: M34 S<-1|0|1> F<-1|0|1>

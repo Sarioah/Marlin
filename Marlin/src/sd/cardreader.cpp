@@ -103,8 +103,8 @@ int16_t CardReader::nrItems = -1;
 
   int16_t CardReader::sort_count;
   uint8_t *CardReader::sort_order;
-  #if ENABLED(SDSORT_CACHE_ONLY)
-    int16_t CardReader::sort_base;
+  #if ENABLED(SDSORT_BY_DATE)
+    uint32_t CardReader::selectedDate;
   #endif
 
   #if ENABLED(SDSORT_USES_RAM)
@@ -229,6 +229,7 @@ bool CardReader::is_visible_entity(const dir_t &p OPTARG(CUSTOM_FIRMWARE_UPLOAD,
   #endif
 
   if ( (p.attributes & DIR_ATT_HIDDEN)                  // Hidden by attribute
+    || TERN0(SDCARD_HIDE_DOTFILES, longFilename[0] == '.') // Unix-style hidden name
     // When readDir() > 0 these must be false:
     //|| pn0 == DIR_NAME_FREE || pn0 == DIR_NAME_DELETED  // Clear or Deleted entry
     //|| pn0 == '.' || longFilename[0] == '.'             // Hidden file
@@ -266,6 +267,8 @@ void CardReader::selectByIndex(MediaFile dir, const int16_t index) {
     if (is_visible_entity(p)) {
       if (cnt == index) {
         createFilename(filename, p);
+        // FAT date is in the high bits, so this packs into a chronologically comparable value
+        TERN_(SDSORT_BY_DATE, selectedDate = (uint32_t(p.lastWriteDate) << 16) | p.lastWriteTime);
         return;  // 0 based index
       }
       cnt++;
@@ -1254,12 +1257,10 @@ void CardReader::closefile(const bool store_location/*=false*/) {
 //
 void CardReader::selectFileByIndex(const int16_t nr) {
   #if ENABLED(SDSORT_CACHE_NAMES)
-    // The cache holds a window of the directory starting at sort_base
-    const int16_t slot = nr - TERN0(SDSORT_CACHE_ONLY, sort_base);
-    if (slot >= 0 && slot < sort_count) {
-      strcpy(filename, sortshort[slot]);
-      strcpy(longFilename, sortnames[slot]);
-      TERN_(HAS_FOLDER_SORTING, flag.filenameIsDir = IS_DIR(slot));
+    if (nr < sort_count) {
+      strcpy(filename, sortshort[nr]);
+      strcpy(longFilename, sortnames[nr]);
+      TERN_(HAS_FOLDER_SORTING, flag.filenameIsDir = IS_DIR(nr));
       char *ext = strrchr(filename, '.');
       setBinFlag(extIsBIN(ext ? ext + 1 : nullptr));
       return;
@@ -1442,12 +1443,7 @@ void CardReader::cdroot() {
    * Get the name of a file in the working directory by sort-index
    */
   void CardReader::selectFileByIndexSorted(const int16_t nr) {
-    #if ENABLED(SDSORT_CACHE_ONLY)
-      // Directory order, same as with sorting disabled. Cached entries come from RAM.
-      selectFileByIndex(TERN(SDCARD_RATHERRECENTFIRST, get_num_items() - 1 - nr, nr));
-    #else
-      selectFileByIndex(SortFlag(TERN1(SDSORT_GCODE, sort_alpha != AS_OFF)) && (nr < sort_count) ? sort_order[nr] : nr);
-    #endif
+    selectFileByIndex(SortFlag(TERN1(SDSORT_GCODE, sort_alpha != AS_OFF)) && (nr < sort_count) ? sort_order[nr] : nr);
   }
 
   #if ENABLED(SDSORT_USES_RAM)
@@ -1503,12 +1499,6 @@ void CardReader::cdroot() {
       // If you use folders to organize, 20 may be enough
       NOMORE(fileCnt, int16_t(SDSORT_LIMIT));
 
-      #if ENABLED(SDSORT_CACHE_ONLY)
-        // Cache the entries that appear first in the menu.
-        // With SDCARD_RATHERRECENTFIRST these are the newest (last) in the directory.
-        sort_base = TERN0(SDCARD_RATHERRECENTFIRST, get_num_items() - fileCnt);
-      #endif
-
       // Sort order is always needed. May be static or dynamic.
       TERN_(SDSORT_DYNAMIC_RAM, sort_order = new uint8_t[fileCnt]);
 
@@ -1539,14 +1529,20 @@ void CardReader::cdroot() {
 
       if (fileCnt > 1) {
 
+        #if ENABLED(SDSORT_BY_DATE)
+          uint32_t sortdate_buf[fileCnt];         // Only needed while sorting
+          uint32_t * const sortdate = sortdate_buf;
+        #endif
+
         // Init sort order.
         for (int16_t i = 0; i < fileCnt; i++) {
           sort_order[i] = uint8_t(i);
           // If using RAM then read all filenames now.
           #if ENABLED(SDSORT_USES_RAM)
-            selectFileByIndex(i + TERN0(SDSORT_CACHE_ONLY, sort_base));
+            selectFileByIndex(i);
             SET_SORTNAME(i);
             SET_SORTSHORT(i);
+            TERN_(SDSORT_BY_DATE, sortdate[i] = selectedDate);
             //char out[30];
             //sprintf_P(out, PSTR("---- %i %s %s"), i, flag.filenameIsDir ? "D" : " ", sortnames[i]);
             //SERIAL_ECHOLN(out);
@@ -1558,8 +1554,32 @@ void CardReader::cdroot() {
           #endif
         }
 
-        #if ENABLED(SDSORT_CACHE_ONLY)
-          // Names are cached in directory order. No sorting.
+        #if ENABLED(SDSORT_BY_DATE)
+        {
+          // True if entry a should be listed before entry b
+          auto listed_before = [&](const uint8_t a, const uint8_t b) -> bool {
+            #if HAS_FOLDER_SORTING
+              const int8_t folders = TERN(SDSORT_GCODE, sort_folders, SDSORT_FOLDERS);
+              if (folders && IS_DIR(a) != IS_DIR(b))
+                return (folders > 0) ? !IS_DIR(a) : IS_DIR(a);
+            #endif
+            if (sortdate[a] != sortdate[b]) {
+              const bool newer = sortdate[a] > sortdate[b],
+                         reversed = TERN(SDSORT_GCODE, sort_alpha == AS_REV, ENABLED(SDSORT_REVERSE));
+              return reversed ? !newer : newer;
+            }
+            return strcasecmp(sortnames[a], sortnames[b]) < 0;
+          };
+
+          // Insertion sort. Plenty fast for SDSORT_LIMIT items, all in RAM.
+          for (int16_t i = 1; i < fileCnt; i++) {
+            const uint8_t o = sort_order[i];
+            int16_t j = i;
+            for (; j > 0 && listed_before(o, sort_order[j - 1]); j--)
+              sort_order[j] = sort_order[j - 1];
+            sort_order[j] = o;
+          }
+        }
         #elif ENABLED(SDSORT_QUICK)
         {
           auto sort_cmp_files = [&](const int16_t o1, const int16_t o2) -> bool {
@@ -1746,7 +1766,7 @@ void CardReader::cdroot() {
             sortnames = new char[1][SORTED_LONGNAME_STORAGE];
             sortshort = new char[1][SORTED_SHORTNAME_STORAGE];
           #endif
-          selectFileByIndex(TERN0(SDSORT_CACHE_ONLY, sort_base));
+          selectFileByIndex(0);
           SET_SORTNAME(0);
           SET_SORTSHORT(0);
           #if ALL(HAS_FOLDER_SORTING, SDSORT_DYNAMIC_RAM)

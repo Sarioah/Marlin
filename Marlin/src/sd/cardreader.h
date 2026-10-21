@@ -373,8 +373,8 @@ private:
     static int16_t sort_count;    // Count of sorted items in the current directory
     static uint8_t *sort_order;   // Pointer to the static or dynamic sort index
 
-    #if ENABLED(SDSORT_CACHE_ONLY)
-      static int16_t sort_base;   // Directory index of the first cached entry
+    #if ENABLED(SDSORT_BY_DATE)
+      static uint32_t selectedDate; // FAT last-write date:time of the item found by selectByIndex
     #endif
 
     #if ENABLED(SDSORT_CACHE_NAMES) && DISABLED(SDSORT_DYNAMIC_RAM)
